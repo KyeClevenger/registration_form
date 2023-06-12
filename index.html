@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <!-- Input for First name -->
+    <div>
+        <Label>First Name:<Label>
+                <input type="text" name="First Name">
+    </div>
+    <!-- Input for Last Name -->
+    <div>
+        <Label>Last Name:<Label>
+                <input type="text" name="Last Name">
+    </div>
+    <!-- Input for email -->
+    <div>
+        <Label>Email Address:<Label>
+                <input type="text" name="Email Address">
+    </div>
+    <!-- Confidental input for Password -->
+    <div>
+        <Label>Password<Label>
+                <input type="password" name="Password">
+    </div>
+    <!-- Confidential input for confirm password -->
+    <div>
+        <Label>Confirm Password<Label>
+                <input type="password" name="Confirm Password">
+    </div>
+    <!-- Calander Input for birthday -->
+    <div>
+        <Label>Birthday<Label>
+                <input type="date" name="Birthday">
+    </div>
+    <!-- Radio input for gender identity -->
+    <div>
+        </p>Gender Identity:<p>
+            <input type="radio" name="Gender Identity" Value="Male" id="Male">
+            <label for="Male">Male</label>
+            <input type="radio" name="Gender Identity" Value="Female" id="Female">
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender Identity" Value="Non-Binary" id="Non-Binary">
+            <label for="Non-Binary">Non-Binary</label>
+            <input type="radio" name="Gender Identity" Value="I perfer not to say" id="I perfer not to say">
+            <label for="I perfer not to say">I perfer not to say</label>
+    </div>
+    <!-- Text box for description about yourself -->
+    <div>
+        <p>A short description about myself:</p>
+        <textarea name="About yourself" cols="" 20" rows="3"></textarea>
+    </div>
+    <!-- Dropdown input for favorite language -->
+    <div>
+    <label for="favorite language"> Select your favorite language</label>
+    <select name="Favorite Language:">
+        <option value="Javascript">Javascript</option>
+        <option value="Python">Python</option>
+        <option value="C#">C#</option>
+        <option value="Java">Java</option>
+    </div>
+            <!-- Checkbox input to recieve updates, and button to create an account -->
+                <input type="checkbox" name="updates" id="updates" checked>
+    <div>
+                <label for="checkbox">Yes, I would like to recieve periodic email updates</label>
+            </div>
+            <input type="submit" value="Create Account">
+            <label for="submit"> </label>
+            <p>Indicates a required field</p>
+    </div>
+</body>
+
+</html>
